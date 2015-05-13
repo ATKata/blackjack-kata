@@ -19,3 +19,19 @@ Jack, King, Queen are worth 10
 
 5) create a new 'Game' class, which contains a play() method. This method should take two sets of cards,
    'playerCards' and 'opponentCards', and return a string of 'you win' or 'you lose';
+
+
+Update
+------
+
+Kata evolved in different direction, steps as follows:
+
+1) pass a single card to the score method and return the score
+
+2) pass multiple cards to the score method and return the score
+
+3) return a result object which tells you your score, and also if your score is blackjack or bust
+
+Next feature was to be:
+
+4) include Ace in the card ranks, treating it as 11 until the score would be bust, and then treating it as 1.
